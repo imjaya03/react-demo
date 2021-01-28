@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+import axios from "axios";
+
+import Home from "./screens/Home";
+import Header from "./components/Header";
+
 
 export const App = () => {
-  const [] = React.useState();
 
-  React.useEffect(() => {});
 
-  return <div>App</div>;
+  const [] = useState();
+
+  useEffect(() => { });
+
+  return (
+    <div>
+      <Header />
+      <Home />
+    </div>
+  );
 };
